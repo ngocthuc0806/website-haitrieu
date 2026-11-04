@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07080c">
+  <meta name="description" content="Hải Triều chuyên cho thuê âm thanh, ánh sáng, màn hình LED và sân khấu chuyên nghiệp tại Cần Thơ và các tỉnh miền Tây.">
+  <title>Cho thuê Âm thanh, Ánh sáng, Màn hình LED | Công ty Hải Triều Cần Thơ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+  <!-- Thanh đầu trang kính mờ hiện đại -->
+  <header class="site-header" id="dau-trang">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Hải Triều - về trang chủ">
+        <img id="brand-logo" src="" alt="Logo Hải Triều">
+      </a>
+
+      <nav class="primary-menu" id="primary-menu" aria-label="Điều hướng chính">
+        <a class="nav-link is-current" href="index.html">Trang chủ</a>
+        <div class="nav-item nav-item--products" id="products-nav">
+          <div class="products-nav-row">
+            <a class="nav-link" href="san-pham.html?view=all">Sản phẩm & Dịch vụ</a>
+            <button class="submenu-toggle" id="submenu-toggle" type="button"
+                    aria-controls="products-submenu" aria-expanded="false"
+                    aria-label="Mở danh mục sản phẩm">⌄</button>
+          </div>
+          <div class="products-submenu" id="products-submenu" aria-label="Danh mục sản phẩm">
+            <a href="san-pham.html?danh-muc=cho-thue-am-thanh">Cho thuê âm thanh</a>
+            <a href="san-pham.html?danh-muc=cho-thue-anh-sang">Cho thuê ánh sáng</a>
+            <a href="san-pham.html?danh-muc=cho-thue-man-hinh-led">Cho thuê màn hình LED</a>
+            <a href="san-pham.html?danh-muc=cho-thue-san-khau">Cho thuê sân khấu</a>
+            <a href="san-pham.html?danh-muc=thiet-bi">Thiết bị sự kiện</a>
+          </div>
+        </div>
+        <a class="nav-link" href="khach-hang.html">Dự án & Khách hàng</a>
+        <a class="nav-link" href="gioi-thieu.html">Giới thiệu</a>
+        <a class="nav-link" href="lien-he.html">Liên hệ</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="menu-toggle" id="menu-toggle" type="button"
+                aria-controls="primary-menu" aria-expanded="false"
+                aria-label="Mở menu điều hướng">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Banner điện ảnh với nội dung nổi và điều hướng trực quan -->
+    <section class="hero" aria-label="Hình ảnh hoạt động của Hải Triều">
+      <div class="hero-slides" id="hero-slides"></div>
+      <div class="hero-overlay">
+        <div class="page-width hero-content-wrap">
+          <div class="hero-caption" id="hero-caption">
+            <span class="hero-badge" id="hero-tag">GIẢI PHÁP SỰ KIỆN TOÀN DIỆN TẠI CẦN THƠ & MIỀN TÂY</span>
+            <h1 class="hero-title" id="hero-title">Hệ Thống Âm Thanh, Ánh Sáng & Màn Hình LED Đẳng Cấp</h1>
+            <p class="hero-subtitle" id="hero-subtitle">Đồng hành cùng hàng trăm sự kiện đại nhạc hội, hội nghị, lễ khởi công và tiệc cưới cao cấp với trang thiết bị chính hãng hiện đại nhất.</p>
+            <div class="hero-cta-group">
+              <a class="button button--orange button--lg" href="san-pham.html?view=all">
+                <span>Khám phá Dịch vụ</span>
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+              </a>
+              <a class="button button--glass button--lg" href="https://zalo.me/0918408673" target="_blank" rel="noreferrer">
+                <span>Tư vấn & Báo giá Zalo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="hero-arrow hero-arrow--previous" id="hero-previous" type="button" aria-label="Ảnh trước">
+        <span aria-hidden="true">‹</span>
+      </button>
+      <button class="hero-arrow hero-arrow--next" id="hero-next" type="button" aria-label="Ảnh tiếp theo">
+        <span aria-hidden="true">›</span>
+      </button>
+      <div class="hero-dots" id="hero-dots" aria-label="Chọn ảnh banner"></div>
+    </section>
+
+    <!-- Thanh chỉ số uy tín -->
+    <section class="stats-ribbon page-width" aria-label="Năng lực Hải Triều">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <strong class="stat-number">10+</strong>
+          <span class="stat-label">Năm kinh nghiệm sự kiện</span>
+        </div>
+        <div class="stat-item">
+          <strong class="stat-number">500+</strong>
+          <span class="stat-label">Chương trình thành công</span>
+        </div>
+        <div class="stat-item">
+          <strong class="stat-number">100%</strong>
+          <span class="stat-label">Thiết bị chính hãng cao cấp</span>
+        </div>
+        <div class="stat-item">
+          <strong class="stat-number">24/7</strong>
+          <span class="stat-label">Hỗ trợ kỹ thuật tận nơi</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Giới thiệu doanh nghiệp hiện đại -->
+    <section class="intro-section page-width" id="gioi-thieu-tom-tat">
+      <div class="intro-copy">
+        <span class="section-eyebrow">VỀ CHÚNG TÔI • HẢI TRIỀU MEDIA</span>
+        <h2>CHO THUÊ ÂM THANH, ÁNH SÁNG & MÀN HÌNH LED CHUYÊN NGHIỆP</h2>
+        <p id="company-description"></p>
+        <p id="company-experience"></p>
+        <div class="intro-highlights">
+          <div class="intro-highlight-chip">✓ Khảo sát & Tư vấn miễn phí</div>
+          <div class="intro-highlight-chip">✓ Lắp đặt đúng tiến độ</div>
+          <div class="intro-highlight-chip">✓ Kỹ thuật viên giàu kinh nghiệm</div>
+        </div>
+        <div class="intro-actions">
+          <a class="button button--orange" href="gioi-thieu.html">Tìm hiểu thêm về Hải Triều</a>
+          <a class="intro-hotline-btn" href="tel:0918408673">
+            <span class="intro-hotline-btn__label">Hotline tư vấn 24/7</span>
+            <strong>0918 408 673</strong>
+          </a>
+        </div>
+      </div>
+      <figure class="intro-photo">
+        <img id="intro-image" src="" alt="Sân khấu và thiết bị do Hải Triều thực hiện">
+        <figcaption class="intro-photo__badge">
+          <strong>Hải Triều Pro-AV</strong>
+          <span>Giải pháp sự kiện hàng đầu tại Cần Thơ & ĐBSCL</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- Lối tắt danh mục nhanh dễ thao tác -->
+    <section class="quick-categories page-width" aria-label="Chọn nhanh dịch vụ">
+      <div class="quick-categories__bar">
+        <a class="quick-cat-pill is-active" href="san-pham.html?view=all">Tất cả dịch vụ</a>
+        <a class="quick-cat-pill" href="san-pham.html?danh-muc=cho-thue-am-thanh">🔊 Cho thuê Âm thanh</a>
+        <a class="quick-cat-pill" href="san-pham.html?danh-muc=cho-thue-anh-sang">✨ Cho thuê Ánh sáng</a>
+        <a class="quick-cat-pill" href="san-pham.html?danh-muc=cho-thue-man-hinh-led">🖥️ Màn hình LED P3/P4</a>
+        <a class="quick-cat-pill" href="san-pham.html?danh-muc=cho-thue-san-khau">🎪 Sân khấu & Khói lạnh</a>
+        <a class="quick-cat-pill" href="san-pham.html?danh-muc=thiet-bi">🎛️ Thiết bị Pro-AV</a>
+      </div>
+    </section>
+
+    <!-- Sản phẩm nổi bật -->
+    <section class="featured-section page-width" id="san-pham-noi-bat">
+      <div class="section-heading section-heading--modern">
+        <div>
+          <span class="section-eyebrow">DỊCH VỤ & THIẾT BỊ TIÊU BIỂU</span>
+          <h2>SẢN PHẨM NỔI BẬT</h2>
+        </div>
+        <div class="featured-controls" aria-label="Điều khiển sản phẩm nổi bật">
+          <button class="circle-control" type="button" data-scroll-target="featured-track" data-scroll-direction="-1" aria-label="Sản phẩm trước">‹</button>
+          <button class="circle-control" type="button" data-scroll-target="featured-track" data-scroll-direction="1" aria-label="Sản phẩm tiếp theo">›</button>
+        </div>
+      </div>
+      <div class="featured-track" id="featured-track" aria-label="Sản phẩm nổi bật"></div>
+    </section>
+
+    <!-- Gói Combo Sự kiện gợi ý cho khách hàng dễ chọn -->
+    <section class="packages-section page-width" id="goi-su-kien" aria-label="Các gói thiết bị sự kiện">
+      <div class="section-heading section-heading--modern">
+        <div>
+          <span class="section-eyebrow">GIẢI PHÁP TRỌN GÓI TỐI ƯU CHI PHÍ</span>
+          <h2>GỢI Ý CẤU HÌNH THEO QUY MÔ SỰ KIỆN</h2>
+        </div>
+        <a class="section-more-link" href="lien-he.html">Yêu cầu cấu hình riêng →</a>
+      </div>
+      <div class="packages-grid" id="packages-grid"></div>
+    </section>
+
+    <!-- Danh mục sản phẩm chi tiết -->
+    <section class="catalog-section page-width" id="san-pham" aria-label="Danh mục sản phẩm">
+      <div class="catalog" id="catalog"></div>
+    </section>
+
+    <!-- Dải dự án & khách hàng tiêu biểu -->
+    <section class="news-section page-width" id="khach-hang">
+      <div class="section-heading section-heading--modern">
+        <div>
+          <span class="section-eyebrow">HÌNH ẢNH THỰC TẾ TẠI SỰ KIỆN</span>
+          <h2>DỰ ÁN & BÀI VIẾT MỚI</h2>
+        </div>
+        <div class="news-controls">
+          <button class="circle-control" type="button" data-scroll-target="news-track" data-scroll-direction="-1" aria-label="Khách hàng trước">‹</button>
+          <button class="circle-control" type="button" data-scroll-target="news-track" data-scroll-direction="1" aria-label="Khách hàng tiếp theo">›</button>
+        </div>
+      </div>
+      <div class="news-track" id="news-track" aria-label="Hình ảnh khách hàng và sự kiện"></div>
+    </section>
+  </main>
+
+  <!-- Chân trang hiện đại với các icon ứng dụng liên hệ trực tiếp của Hải Triều -->
+  <footer class="site-footer home-footer" id="site-footer">
+    <div class="footer-inner page-width">
+      <div class="footer-company">
+        <h2>CÔNG TY TNHH MTV GIẢI PHÁP TRUYỀN THÔNG HẢI TRIỀU</h2>
+        <p class="footer-tagline">Đơn vị tiên phong cung cấp giải pháp Âm thanh, Ánh sáng, Màn hình LED và Sân khấu sự kiện chuyên nghiệp tại TP. Cần Thơ & Đồng bằng sông Cửu Long.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-icon" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+            <span>Địa chỉ: <a href="https://www.google.com/maps?q=94%20T%E1%BA%A7m%20Vu%2C%20H%C6%B0ng%20L%E1%BB%A3i%2C%20Ninh%20Ki%E1%BB%81u%2C%20C%E1%BA%A7n%20Th%C6%A1" target="_blank" rel="noreferrer"><strong>94 Tầm Vu, P. Hưng Lợi, Q. Ninh Kiều, TP. Cần Thơ</strong></a></span>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.56 3.57.56.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.61 21 3 13.39 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.19 2.45.56 3.57a1 1 0 0 1-.25 1.02l-2.19 2.2z"/></svg></span>
+            <span>Điện thoại / Zalo: <a href="tel:0918408673"><strong>0918 408 673</strong></a></span>
+          </li>
+          <li>
+            <span class="contact-icon" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></span>
+            <span>Email: <a href="mailto:amthanhcantho@gmail.com"><strong>amthanhcantho@gmail.com</strong></a></span>
+          </li>
+        </ul>
+
+        <!-- Dãy icon kết nối mạng xã hội & ứng dụng của Hải Triều -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- Nút đưa người xem trở lại đầu trang -->
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Lên đầu trang">
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 5-9 9 2.1 2.1L12 9.2l6.9 6.9L21 14z"/></svg>
+  </button>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
