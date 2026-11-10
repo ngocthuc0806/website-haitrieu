@@ -480,6 +480,14 @@ img {
 
 .hero-content-wrap {
   padding-block: 40px;
+  padding-inline: 68px;
+}
+
+@media (max-width: 640px) {
+  .hero-content-wrap {
+    padding-inline: 8px;
+    padding-bottom: 64px;
+  }
 }
 
 .hero-caption {
@@ -550,11 +558,31 @@ img {
 }
 
 .hero-arrow--previous {
-  left: 16px;
+  left: 18px;
 }
 
 .hero-arrow--next {
-  right: 16px;
+  right: 18px;
+}
+
+@media (max-width: 640px) {
+  .hero-arrow {
+    top: auto;
+    bottom: 14px;
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+    transform: none;
+  }
+
+  .hero-arrow--previous {
+    left: auto;
+    right: 64px;
+  }
+
+  .hero-arrow--next {
+    right: 18px;
+  }
 }
 
 .hero-dots {
