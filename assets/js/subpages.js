@@ -591,7 +591,7 @@
       '<section class="about-hero-card">' +
         '<span class="section-eyebrow">CÔNG TY TNHH MTV GIẢI PHÁP TRUYỀN THÔNG HẢI TRIỀU</span>' +
         '<h1>CHO THUÊ ÂM THANH, ÁNH SÁNG & MÀN HÌNH LED CHUYÊN NGHIỆP</h1>' +
-        '<p><strong>HẢI TRIỀU Co.,LTD</strong> là một trong những công ty cho thuê âm thanh, ánh sáng và màn hình LED chuyên nghiệp chất lượng cao hàng đầu tại Cần Thơ. Chúng tôi cung cấp các cấp độ dịch vụ cao cấp cho một lượng khách hàng lớn, bao gồm tư vấn giải pháp, cho thuê thiết bị, sản xuất kỹ thuật và lắp đặt trọn gói.</p>' +
+        '<p><strong>HẢI TRIỀU Co., LTD</strong> là một trong những công ty cho thuê âm thanh, ánh sáng và màn hình LED chuyên nghiệp chất lượng cao hàng đầu tại Cần Thơ. Chúng tôi cung cấp các cấp độ dịch vụ cao cấp cho một lượng khách hàng lớn, bao gồm tư vấn giải pháp, cho thuê thiết bị, sản xuất kỹ thuật và lắp đặt trọn gói.</p>' +
         '<p>Với <strong>hơn 10 năm kinh nghiệm</strong>, Hải Triều không ngừng đầu tư vào các dòng thiết bị chính hãng hiện đại nhất (RCF, Midas, Behringer, Shure, Sennheiser, Avolites, LED P3/P4...) cùng đội ngũ kỹ thuật viên tận tâm để tối ưu hóa mọi nhu cầu đa dạng của Quý khách hàng.</p>' +
       '</section>' +
       '<div class="about-page-gallery about-page-gallery--grid">' + introImages.map(renderAboutImage).join("") + '</div>' +
@@ -705,6 +705,12 @@
         setMenuOpen(false);
         if (productsNav) productsNav.classList.remove("is-open");
         if (submenuButton) submenuButton.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    document.addEventListener("click", function (event) {
+      if (menu && menuButton && menu.classList.contains("is-open") && !menu.contains(event.target) && !menuButton.contains(event.target)) {
+        setMenuOpen(false);
       }
     });
 

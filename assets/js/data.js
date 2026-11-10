@@ -268,9 +268,9 @@
     logo: "assets/images/logo.svg",
     introImage: imageUrl("Uploads/images/am-thanh-anh-sang-hai-trieu.jpg"),
     companyDescription:
-      "HẢI TRIỀU Co.,LTD là một trong những công ty cho thuê âm thanh và ánh sáng màn hình led chuyên nghiệp chất lượng cao tại Cần Thơ. Chúng tôi cung cấp các cấp độ dịch vụ cao cấp cho một lượng khách hàng lớn với môi trường kinh tế đầy thách thức, cung cấp một loạt các sản phẩm chuyên nghiệp để bán, cho thuê, dịch vụ sản xuất, lắp đặt.",
+      "HẢI TRIỀU Co., LTD là một trong những công ty cho thuê âm thanh và ánh sáng màn hình led chuyên nghiệp chất lượng cao tại Cần Thơ. Chúng tôi cung cấp các cấp độ dịch vụ cao cấp cho một lượng khách hàng lớn với môi trường kinh tế đầy thách thức, cung cấp một loạt các sản phẩm chuyên nghiệp để bán, cho thuê, dịch vụ sản xuất, lắp đặt.",
     companyExperience:
-      "HẢI TRIỀU Co., Ltd hơn 10 năm kinh nghiệm với tầm nhìn cung cấp giải pháp âm thanh, ánh sáng, màn hình led cho một loạt các sự kiện, giải trí. Kể từ đó, chúng tôi đã tiếp tục thực hiện và mở rộng tầm nhìn này bằng cách cải thiện kỹ năng của mình và liên tục đánh giá, tìm kiếm các thiết bị tốt nhất trong khi nuôi dưỡng mối quan hệ vững chắc với khách hàng và đối tác của chúng tôi để tối ưu hóa nhu cầu đa dạng của khách hàng.",
+      "HẢI TRIỀU Co., LTD hơn 10 năm kinh nghiệm với tầm nhìn cung cấp giải pháp âm thanh, ánh sáng, màn hình led cho một loạt các sự kiện, giải trí. Kể từ đó, chúng tôi đã tiếp tục thực hiện và mở rộng tầm nhìn này bằng cách cải thiện kỹ năng của mình và liên tục đánh giá, tìm kiếm các thiết bị tốt nhất trong khi nuôi dưỡng mối quan hệ vững chắc với khách hàng và đối tác của chúng tôi để tối ưu hóa nhu cầu đa dạng của khách hàng.",
     companyDevelopment:
       "Chúng tôi tiếp tục dẫn đầu trong ngành bằng cách liên tục cập nhật công nghệ mới nhất. Đầu tư vào trang thiết bị máy móc hiện đại đáp ứng cho các show diễn và mục đích thương mại là động lực thúc đẩy chúng tôi cùng phát triển.",
     companyPrinciples:

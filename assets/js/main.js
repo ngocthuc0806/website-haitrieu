@@ -62,8 +62,8 @@
 
     var descEl = document.getElementById("company-description");
     var expEl = document.getElementById("company-experience");
-    if (descEl) descEl.innerHTML = highlightCompanyName(data.companyDescription, "HẢI TRIỀU Co.,LTD");
-    if (expEl) expEl.innerHTML = highlightCompanyName(data.companyExperience, "HẢI TRIỀU Co., Ltd");
+    if (descEl) descEl.innerHTML = highlightCompanyName(data.companyDescription, "HẢI TRIỀU Co., LTD");
+    if (expEl) expEl.innerHTML = highlightCompanyName(data.companyExperience, "HẢI TRIỀU Co., LTD");
   }
 
   function renderHero() {
@@ -201,6 +201,12 @@
         if (submenuButton) submenuButton.setAttribute("aria-expanded", "false");
       }
     });
+
+    document.addEventListener("click", function (event) {
+      if (menu.classList.contains("is-open") && !menu.contains(event.target) && !menuButton.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    });
   }
 
   function setupHeroSlider() {
@@ -269,6 +275,28 @@
         restartTimer();
       });
     });
+
+    // Hỗ trợ vuốt trái/phải (touch swipe) chuyển ảnh banner trên điện thoại
+    var heroEl = document.querySelector(".hero");
+    if (heroEl) {
+      var touchStartX = 0;
+      var touchStartY = 0;
+      heroEl.addEventListener("touchstart", function (e) {
+        if (!e.touches || !e.touches.length) return;
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+      }, { passive: true });
+
+      heroEl.addEventListener("touchend", function (e) {
+        if (!e.changedTouches || !e.changedTouches.length) return;
+        var dx = e.changedTouches[0].clientX - touchStartX;
+        var dy = e.changedTouches[0].clientY - touchStartY;
+        if (Math.abs(dx) > 42 && Math.abs(dx) > Math.abs(dy)) {
+          showSlide(dx < 0 ? currentIndex + 1 : currentIndex - 1);
+          restartTimer();
+        }
+      }, { passive: true });
+    }
 
     restartTimer();
   }
